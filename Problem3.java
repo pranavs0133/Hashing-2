@@ -1,3 +1,16 @@
+// Time Complexity : O(N)
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+
+// Your code here along with comments explaining your approach in three sentences only
+/*
+Traverse through the string while add the character in the hashSet.
+If character already exists, increment the answer by 2 and remove it.
+If result is same as string length, do not add 1, else add 1
+ */
+
 import java.util.*;
 
 public class Problem3 {

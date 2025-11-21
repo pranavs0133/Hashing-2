@@ -1,3 +1,16 @@
+// Time Complexity : O(N)
+// Space Complexity : O(N)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+
+// Your code here along with comments explaining your approach in three sentences only
+/*
+If encountered 0 rSum decrement by 1, if 1, increment rSum by 0
+If there exists an rSum in the hashmap then we would count the length based on the current idx and the value from the hmap
+Update the length if it is greater.
+ */
+
 import java.util.*;
 
 public class Problem2 {
